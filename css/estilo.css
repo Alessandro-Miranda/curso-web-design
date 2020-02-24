@@ -9,7 +9,7 @@ html
 body
 {
     margin: auto;
-    font-family: sans-serif;
+    font-family: "Helvetica", sans-serif;
 }
 header
 {
@@ -49,8 +49,8 @@ header ul li a
     margin-top: 180px;
     color: white;
     font-size: 100px;
-    font-family: "helvetica", sans-serif;
     text-transform: uppercase;
+    text-shadow: 0 0 10px black;
     text-align: center;
 }
 #frase
@@ -62,7 +62,6 @@ header ul li a
     width: 270px;
     background: black;
     color: white;
-    font-family: "helvetica", sans-serif;
     border-bottom: 2px solid white;
     opacity: 0.75;
 }
@@ -108,7 +107,6 @@ section li:nth-child(2)
     margin-top: 160px;
     height: 40px;
     padding: 10px;
-    font-family: "helvetica", sans-serif;
     text-transform: uppercase;
     color: white;
     background: black;
@@ -121,7 +119,6 @@ article
 #titulo
 {
     font-size: 23px;
-    font-family: "Helvetica", sans-serif;
     font-weight: bold;
     margin: 10px 25px 10px 25px;
     padding: 10px;
@@ -138,7 +135,6 @@ footer
     height: 70px;
     color: white;
     background: gray;
-    font-family: "Helvetica", sans-serif;
     text-align: center;
     overflow: hidden;
 }
