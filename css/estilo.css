@@ -19,7 +19,7 @@ header
     background-size: cover;
     height: 650px;
 }
-ul li
+header ul li
 {
     list-style-type: "";
     display: inline-block;
@@ -30,15 +30,15 @@ ul li
     margin-left: 10px;
     border: 1px solid white;
 }
-li:nth-child(3)
+header li:nth-child(3)
 {
     margin-right: 25px;
 }
-ul
+header ul
 {
     text-align: right;
 }
-ul li a
+header ul li a
 {
     text-decoration: none;
     color: white;
@@ -64,4 +64,51 @@ ul li a
     font-family: "helvetica", sans-serif;
     border-bottom: 2px solid white;
     opacity: 0.75;
+}
+main
+{
+    background-color: lightgray;
+    padding: 18px 50px;
+}
+section
+{
+    background-color: white;
+    width: 100%;
+}
+section ul li
+{
+    display: inline-block;
+    width: 390px;
+    height: 200px;
+}
+section ul
+{
+    padding: 10px 10px 10px 25px;
+}
+section li:nth-child(2)
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#item1
+{
+    background-image: url("../imagens/card_01.png");
+}
+#item2
+{
+    background-image: url("../imagens/card_02.jpg");
+}
+#item3
+{
+    background-image: url("../imagens/card_03.jpg");
+}
+#item1>p, #item2>p, #item3>p
+{
+    margin-top: 160px;
+    height: 40px;
+    padding: 10px;
+    font-family: "helvetica", sans-serif;
+    color: white;
+    background: black;
+    opacity: 0.7;
 }
